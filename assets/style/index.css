@@ -1,0 +1,60 @@
+img {
+    width: 120px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 850px;
+}
+
+section,
+h1,
+.sum {
+    margin: 0 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(100, 77, 175);
+    margin: 30px auto;
+}
+
+.item {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1.5px solid black;
+}
+
+.description {
+    margin: 0 10px;
+    width: 300px;
+}
+
+.about {
+    font-size: 16px;
+    color: rgb(171, 169, 169);
+}
+
+.sum {
+    display: flex;
+    align-items: center;
+    width: 860px;
+    margin-top: 20px;
+}
+
+.sale {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    height: 55px;
+    font-size: 18px;
+    width: 400px;
+}
+
+.total {
+    font-size: 22px;
+    font-weight: 800;
+}

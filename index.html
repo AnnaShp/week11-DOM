@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+</head>
+
+<body>
+    <h1>Корзина</h1>
+    <section class="item item_1">
+        <div class="image"><img src="./assets/img/image1.jpg" alt="сфитшот мэджик"></div>
+        <div class="description">
+            <h2>Теплый сфитшот</h2>
+            <div class="about">
+                <p>Цвет: белый</p>
+                <p>Размер: XL</p>
+                <p>Количество: 1</p>
+            </div>
+        </div>
+        <div class="price price1">1000 </div>
+    </section>
+    <section class="item item_2">
+        <img src="./assets/img/image2.jpg" alt="рубашка льняная">
+        <div class="description">
+            <h2>Рубашка льняная летняя</h2>
+            <div class="about">
+                <p>Цвет: черный</p>
+                <p>Размер: XXL</p>
+                <p>Количество: 1</p>
+            </div>
+        </div>
+        <div class="price price2">3000 </div>
+    </section>
+    <section class="item item_3">
+        <img src="./assets/img/image3.jpg" alt="платье-сетка">
+        <div class="description">
+            <h2>Платье-сетка</h2>
+            <div class="about">
+                <p>Цвет: черный</p>
+                <p>Размер: M</p>
+                <p>Количество: 1</p>
+            </div>
+        </div>
+        <div class="price price3">3300 </div>
+    </section>
+    <section class="item item_4">
+        <img src="./assets/img/image4.jpg" alt="свитшот оверсайз">
+        <div class="description">
+            <h2>Свитшот оверсайз</h2>
+            <div class="about">
+                <p>Цвет: белый</p>
+                <p>Размер: M</p>
+                <p>Количество: 1</p>
+            </div>
+        </div>
+        <div class="price price4">2000 </div>
+    </section>
+    <div class="sum">
+        <button class="sale" onclick="showNewPrice()" type="button">Использовать купон на 20%</button>
+        <section class="total">Итого: <span id="totalPrice" onkeyup="showPrice()"></span></section>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
