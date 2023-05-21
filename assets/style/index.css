@@ -15,11 +15,11 @@ h1,
     margin: 0 20px;
 }
 
-.price {
+.price,.currency {
     font-size: 20px;
     font-weight: 800;
     color: rgb(100, 77, 175);
-    margin: 30px auto;
+    margin: 55px 5px;
 }
 
 .item {
