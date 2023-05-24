@@ -1,13 +1,27 @@
-var number = Number(document.getElementById('input').value);
+'use strict';
 
-let button = document.getElementById('check');
-button.onclick = function checkMe() {
-    return Number(number) ** 2;
+let number;
+let getNumber = function () {
+    number = Number(document.getElementById('inputNumber').value);
+    console.log(number);
 };
 
-let numberTwo = () => {
-    input.getAttribute('placeholder').value;
-    return input.setAttribute('checkMe()');
+let sum = function () {
+    number ** 2;
+    console.log(sum());
 };
+
+
+let inputResult = function () {
+    let el = document.getElementById('resultNumber');
+    el.placeholder = 'sum()';
+};
+
+/*
+
+function numberTwo() {
+    
+   return document.querySelector('.text');
+};*/
 
 

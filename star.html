@@ -6,16 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Квадрат числа</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            padding: 10px;
+            margin: 10px auto;
+            border: 5px solid gray;
+        }
+
+        button {
+            width: 200px;
+            height: 35px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            background-color: rgb(193, 190, 190);
+        }
+
+        input {
+            height: 30px;
+            padding: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Квадрат числа</h1>
-    <form>
-        <input type="number" id="input" placeholder="введите число" />
-        <input type="number" id="result" placeholder="квадрат числа" disabled>
-        <p></p>
-    </form>
-    <button id="check" onclick="checkMe();">Квадрат числа</button>
+    <div>
+        <h1>Квадрат числа</h1>
+        <label for="inputNumber">Введите число</label>
+        <input type="number" name="enter" id="inputNumber" value="" placeholder="введите число"
+            onchange="getNumber();" />
+        <label for="resultNumber">Квадрат числа</label>
+        <input type="number" id="resultNumber" placeholder="квадрат числа" onchange="inputResult();" disabled />
+        <button onclick="sum();" id="check">Рассчитать</button>
+    </div>
 
     <script src="./star.js"></script>
 </body>
