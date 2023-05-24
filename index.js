@@ -14,7 +14,7 @@ let totalPrice = document.getElementById('totalPrice');
 let sum = +price1 + +price2 + +price3 + +price4;
 
 totalPrice.textContent = sum + currency;
-console.log(sum);
+// console.log(sum);
 
 //функция складывает стоимость товаров + валюта и выводит на экран корзины
 let button = document.querySelector('.sale');
